@@ -1,5 +1,8 @@
 header {
     background-color: #d4dacb;
+    padding: 10px 15px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 body {
     background-color: #6e1e2b;
@@ -14,14 +17,14 @@ h1 {
 h2 {
     color: #6e1e2b;
     font-size: larger;
-     font-family: "Cinzel Decorative", serif;
+    font-family: "Cinzel Decorative", serif;
     font-weight: 700;
 }
 h3 {
     color: #6e1e2b;
     text-align: left;
     font-size: medium;
-     font-family: "Cinzel Decorative", serif;
+    font-family: "Cinzel Decorative", serif;
     font-weight: 600;
 }
 h4 {
@@ -30,33 +33,43 @@ h4 {
     font-weight: 800;
     font-size: larger;
 }
-.subheader { 
-    color:#2b6398;
+.subheader {
+    color: #2b6398;
     text-align: center;
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: italic;
 }
-nav {
+.nav-bar {
     text-align: center;
     margin: 10px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
 }
-nav a{
+.nav-bar a {
     text-decoration: none;
     color: #c45275;
+    padding: 0.25rem;
 }
-nav a:hover {
+.nav-bar a:hover {
     color: #588d26;
 }
-.nav-bar top{
-    display: flexbox;
-    margin: 10px;
-    color: darkred;
+main.container {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1rem;
 }
 p {
     text-align: left;
     color: #d4dacb;
     font-family: "Ovo", serif;
+    line-height: 1.4;
+}
+a {
+    color: #d18389;
 }
 .float-left {
     float: left;
@@ -72,7 +85,8 @@ p {
     clear: both;
 }
 .verse {
-    margin: 1.5rem 0; clear: both;
+    margin: 0 1rem;
+    clear: both;
 }
 .verse pre {
     line-height: 1.2;
@@ -81,6 +95,10 @@ p {
     font-family: "Ovo", serif;
 }
 .poem {
+    margin: 0 0 0 1rem;
+    clear: both;
+}
+.poem pre {
     display: block;
     text-align: left;
     line-height: 1.2;
@@ -89,16 +107,15 @@ p {
     color: #d4dacb;
     font-family: "Ovo", serif;
 }
-
 .nav-bar bottom {
-    display: inline
+    display: inline;
 }
 .footer-banner {
     background-color: #d4dacb;
     padding: 15px;
 }
-.ol {
-    list-style: circle;
+ol {
+    list-style: none;
 }
 footer {
     text-align: center;
