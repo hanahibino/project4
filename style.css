@@ -107,6 +107,21 @@ a {
     color: #d4dacb;
     font-family: "Ovo", serif;
 }
+.next-button {
+                text-align: center;
+                margin-top: 2em;
+                margin-bottom: 1em;
+            }
+.next-button a {
+                background-color: #2b6398;
+                color: white;
+                padding: 0.75em 2em;
+                font-size: 1.2em;
+                text-decoration: none;
+            }
+.next-button a:hover {
+                background-color: #1f436f;
+            }
 .nav-bar bottom {
     display: inline;
 }
