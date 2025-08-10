@@ -1,0 +1,108 @@
+header {
+    background-color: #d4dacb;
+}
+body {
+    background-color: #6e1e2b;
+    line-height: 1.5;
+}
+h1 {
+    color: #6e1e2b;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 800;
+}
+h2 {
+    color: #6e1e2b;
+    font-size: larger;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+}
+h3 {
+    color: #6e1e2b;
+    text-align: left;
+    font-size: medium;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 600;
+}
+h4 {
+    color: #d18389;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 800;
+    font-size: larger;
+}
+.subheader { 
+    color:#2b6398;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+nav {
+    text-align: center;
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #c45275;
+}
+nav a:hover {
+    color: #588d26;
+}
+.nav-bar top{
+    display: flexbox;
+    margin: 10px;
+    color: darkred;
+}
+p {
+    text-align: left;
+    color: #d4dacb;
+    font-family: "Ovo", serif;
+}
+.float-left {
+    float: left;
+    max-width: 200px;
+    margin: 0 1rem 1rem 0;
+}
+.float-right {
+    float: right;
+    max-width: 200px;
+    margin: 0 0 1rem 1rem;
+}
+.clearfix {
+    clear: both;
+}
+.verse {
+    margin: 1.5rem 0; clear: both;
+}
+.verse pre {
+    line-height: 1.2;
+    margin: 0;
+    color: #d4dacb;
+    font-family: "Ovo", serif;
+}
+.poem {
+    display: block;
+    text-align: left;
+    line-height: 1.2;
+    max-width: 400px;
+    margin: 5%;
+    color: #d4dacb;
+    font-family: "Ovo", serif;
+}
+
+.nav-bar bottom {
+    display: inline
+}
+.footer-banner {
+    background-color: #d4dacb;
+    padding: 15px;
+}
+.ol {
+    list-style: circle;
+}
+footer {
+    text-align: center;
+    font-size: smaller;
+    font-family: "Cormorant Garamond", serif;
+    color: #c45275;
+}
